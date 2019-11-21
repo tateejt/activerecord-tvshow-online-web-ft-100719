@@ -20,11 +20,11 @@ class Show < ActiveRecord::Base
     self.sum(:rating)
   end
   
-  def popularShow 
+  def popular_show 
     self.where("rating >= ?", 5)
   end
   
-  def showsByAlphabeticalOrder
+  def shows_by_alphabetical_order
     self.order(:name)
   end
 end
