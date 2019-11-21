@@ -18,4 +18,8 @@ class Show < ActiveRecord::Base
   def ratingsSum
     self.sum(:rating)
   end
+  
+  def popularShow 
+    
+  end
 end
