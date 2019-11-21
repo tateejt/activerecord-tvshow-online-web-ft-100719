@@ -1,3 +1,5 @@
 class Show < ActiveRecord::Base 
-  def 
+  def self.highestRating
+    self.maximum
+  end
 end
