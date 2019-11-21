@@ -20,6 +20,6 @@ class Show < ActiveRecord::Base
   end
   
   def popularShow 
-    
+    self.
   end
 end
